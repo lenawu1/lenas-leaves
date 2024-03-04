@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- 
+  Name: Lena Wu
+  Date: June 10, 2023
+  The html page to display all the plant products with a filter option
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lena's Leaves - Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="index.html"
+            >Lena's Leaves
+            <img src="images/plant.jpeg" alt="Plant Icon" class="plant-icon"
+          /></a>
+        </h1>
+        <ul>
+          <li><a href="shop.html">Shop All</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div id="cart">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-count">0</span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h2>Shop All</h2>
+      <div id="filter-container">
+        <label for="filter">Filter:</label>
+        <select id="filter">
+          <option value="all">All</option>
+          <option value="Tropical">Tropical</option>
+          <option value="Succulent">Succulent</option>
+          <option value="Bulb">Bulb</option>
+        </select>
+      </div>
+      <div class="products" id="plant-list"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Lena's Leaves. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

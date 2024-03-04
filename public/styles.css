@@ -1,0 +1,177 @@
+/*
+  NAME: Lena Wu
+  DATE: June 10, 2023
+  
+  This is the styles.css file for the styling of the entire
+  plant e-commerce store. Green, modern, and simple styling
+*/
+
+body, h1, h2, h3, p, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Lora', serif;
+  color: #333;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+nav li {
+  margin-right: 10px;
+}
+
+nav a {
+  color: #006400;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+nav li a {
+  font-size: 18px;
+}
+
+.cart-icon {
+  margin-right: 5px;
+}
+
+.cart-count {
+  background-color: #006400;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 50%;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #006400;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button, .btn {
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product {
+  flex: 1 0 calc(30% - 10px);
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.product img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  background-position: center;
+}
+
+.product h3, .product p {
+  margin: 10px 0;
+}
+
+.intro-section {
+  background-image: url('images/background.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.intro-content h2 {
+  font-size: 36px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.intro-content p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.browse-button {
+  display: inline-block;
+  background-color: #006400;
+  color: #fff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.plant-icon {
+  height: 34px;
+}
+

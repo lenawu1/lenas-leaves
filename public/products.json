@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Alocasia (Elephant Ear)",
+        "category": "Tropical",
+        "price": "15.00",
+        "image": "images/alocasia.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Anthurium",
+        "category": "Tropical",
+        "price": "20.00",
+        "image": "images/anthurium.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Silver Vine",
+        "category": "Tropical",
+        "price": "35.00",
+        "image": "images/silvervine.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pilea peperomioides",
+        "category": "Tropical",
+        "price": "18.00",
+        "image": "images/pilea.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Streptocarpus",
+        "category": "Tropical",
+        "price": "12.00",
+        "image": "images/strepto.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Narcissus",
+        "category": "Bulb",
+        "price": "6.00",
+        "image": "images/narc.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Hyacinth",
+        "category": "Bulb",
+        "price": "9.00",
+        "image": "images/hyac.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Hippeastrum",
+        "category": "Bulb",
+        "price": "12.00",
+        "image": "images/hipp.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Crocus",
+        "category": "Bulb",
+        "price": "12.00",
+        "image": "images/croc.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Aloe",
+        "category": "Succulent",
+        "price": "14.00",
+        "image": "images/aloe.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Echeveria",
+        "category": "Succelent",
+        "price": "8.00",
+        "image": "images/eche.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Epiphyllum",
+        "category": "Succulent",
+        "price": "19.00",
+        "image": "images/epi.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Haworthia ",
+        "category": "Succelent",
+        "price": "9.00",
+        "image": "images/haw.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Heptapleurum arboricola",
+        "category": "Tropical",
+        "price": "12.00",
+        "image": "images/hept.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Orchid",
+        "category": "Tropical",
+        "price": "12.00",
+        "image": "images/orchid.jpg"
+    }
+]
